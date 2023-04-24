@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>tela de login </title>
+<style>
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(48deg,cyan, rgb(9, 177, 23) );
+    }
+      div{
+         background-color:rgba(0, 0, 0, 0.9);
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         padding: 80px;
+         border-radius: 15px;
+         color: #fff;
+      }
+    input{
+        padding: 15px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+    }
+    button{
+        background-color: aquamarine;
+        border: none;
+        padding: 15px;
+        width: 100%;
+        border-radius: 10px;
+        color: black;
+        font-size: 15px;
+    
+    }
+    button:hover{
+       background-color: darkturquoise;
+       cursor: pointer;
+    }
+    
+</style>
+
+<script type="text/javascript">
+function funcaoteste()
+{
+var a = document.getElementById("Nome").value;
+var b = document.getElementById("Senha").value;
+if ( a == 'admin' & b == 123);
+{
+alert('Sucesso!');
+}
+
+else
+{
+alert('Falha!');
+}
+
+return false;
+
+
+}    
+
+</script>
+</style>
+<script></script>
+</head>
+<body>
+    <div>
+        <h1 > Login </h1>
+        <input type="text" placeholder="Nome">
+        <br><br>
+        <input type="password" placeholder="Senha">
+        <br><br>
+        <button> Enviar </button>
+    </div>
+</body>
+</html>
